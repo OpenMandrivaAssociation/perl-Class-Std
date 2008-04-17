@@ -10,10 +10,10 @@ Summary:            Support for creating standard "inside-out" classes
 License:            GPL or Artistic
 Group:              Development/Perl
 Url:                http://search.cpan.org/dist/%{module}/
-Source:             http://www.cpan.org/modules/by-module/Text/%{module}-%{version}.tar.bz2
-BuildRequires:      perl perl-Module-Build perl-version
-BuildRoot:          %{_tmppath}/%{name}-%{version}-%{release}-buildroot
+Source:             http://www.cpan.org/modules/by-module/Class/%{module}-%{version}.tar.gz
+BuildRequires:      perl-Module-Build
 BuildArch:          noarch
+BuildRoot:          %{_tmppath}/%{name}-%{version}
 
 %description
 Support for creating standard "inside-out" classes
